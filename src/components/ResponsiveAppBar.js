@@ -126,7 +126,7 @@ const ResponsiveAppBar = ({isSignedIn, setIsSignedIn}) => {
               </Menu>
             </Box>
           )}
-          {!isSignedIn &&location.pathname!=="/login"  && (
+          {!isSignedIn &&location.pathname!=="/login"&&location.pathname!=="/main"  && (
             <Button
               onClick={() => {
                 navigate("/login");

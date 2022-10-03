@@ -6,7 +6,6 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 const VideoPlayer = () => {
   const location = useLocation();
   const navigate= useNavigate();
-  console.log(location);
   return (
     <Container
       sx={{
